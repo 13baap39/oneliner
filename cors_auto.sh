@@ -1,7 +1,7 @@
 #!/bin/bash
 
-read -p "Enter the location of the input file: " input_file
-read -p "Enter the location of the output file: " output_file
+read -p "Enter the location of the list of urls/domains(ex.../file/to/allurls.txt): " input_file
+read -p "Enter the location of the output file (ex.../file/to/cors.txt): " output_file
 
 if [ ! -f "$input_file" ]; then
     echo "Error: Input file not found."
